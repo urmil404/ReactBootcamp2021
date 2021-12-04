@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: #2C272E;
 }
 
 .grid {
@@ -14,8 +14,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #181D31;
 }
+
 .icon {
-  font-size: 35px;
+  font-size: 20px;
   color: #ffffff;
+}
+
+.textTurns {
+  font-size: 100px;
+  color: #FFB830;
+}
+
+.btnReload {
+  background-color: #181D31;
+  color: #FBF46D;
+  font-size: 30px;
+}
+
+.textWon {
+  /* background-color: #181D31; */
+  color: #FF5F7E;
+  font-size: 50px;
 }
