@@ -5,17 +5,22 @@
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  color: lightblue;
-  background-color: black;
+  color: #FFAB4C;
+  background-color: #2C272E;
+}
+
+.Count {
+  color: cornflowerblue;
+  font-size: 100px;
 }
 
 button {
   color: #ffffff;
-  padding: 5px 25px;
+  padding: 20px 25px;
   margin: 10px;
   font-size: 20px;
   text-transform: uppercase;
   width: 300px;
-  border-radius: 15px;
-  background-color: #007bff;
+  border-radius: 10px;
+  background-color: #0A1931;
 }

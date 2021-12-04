@@ -9,7 +9,7 @@ function App() {
       <header>
         <h1>Counter App using State</h1>
       </header>
-      <h2>Current Value of Count is {count}</h2>
+      <h2 className="Count">{count}</h2>
       <button onClick={() => setCount(0)}>Reset Counter</button>
       <button onClick={() => (count > 10 ? "" : setCount(count + 1))}>
         Increase Counter
